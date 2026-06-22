@@ -1,0 +1,54 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: rgb(245, 237, 237);
+}
+
+body{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 253, 254);
+}
+
+button{
+    background-color: rgb(238, 228, 237);
+    color: black;
+    border-color: 3px rgb(126, 165, 193);
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+.hero{
+    text-align: center;
+    background: #333;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(240, 234, 234);
+}
+
+#attempts{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(251, 246, 246);
+}
